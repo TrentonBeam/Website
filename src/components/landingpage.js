@@ -3,9 +3,9 @@ import { Grid, Cell } from 'react-mdl';
 
 
 class Landing extends Component {
-  render() {
+render() {
     return(
-      <div style={{width: '100%', margin: 'auto'}}>
+      <div style={{display: 'flex', height: '100%'}}>
         <Grid className="landing-grid">
            <Cell col={12}>
             <img
@@ -16,6 +16,7 @@ class Landing extends Component {
 
               <div className="banner-text">
                 <h1>Full Stack Web Developer</h1>
+                <h1>Web & Mobile</h1>
 
               <hr/>
 
@@ -24,12 +25,12 @@ class Landing extends Component {
             <div className="social-links">
 
                 {/* LinkedIn */}
-              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+              <a href="https://www.linkedin.com/in/trenton-beam-b01581191/" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-linkedin-square" aria-hidden="true" />
               </a>
 
               {/* Github */}
-            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+            <a href="https://github.com/TrentonBeam" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-github-square" aria-hidden="true" />
             </a>
 

@@ -24,7 +24,7 @@ class Contact extends Component {
           <List>
           <ListItem>
            <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-            <a href={'https://trentonbeam.appointlet.com'} style={{ color: 'black', textDecoration: 'none'}} target="_blank">
+            <a href={'https://trentonbeam.appointlet.com'} style={{ color: 'black', textDecoration: 'none' }} target="_blank">
             <i className="fa fa-calendar" aria-hidden="true"/>
             <span style={{ paddingTop: 5}}>Click to Schedule Appointment</span>
             </a>

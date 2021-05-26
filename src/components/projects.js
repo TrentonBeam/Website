@@ -6,7 +6,6 @@ class Projects extends Component {
     super(props);
     this.state = { activeTab: 0 };
   }
-
 toggleCategories() {
   if(this.state.activeTab ===0){
     return(
@@ -15,20 +14,42 @@ toggleCategories() {
       <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
         <CardTitle style={{color: '#black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png) center / cover'}} >React Project #1</CardTitle>
         <CardText>
-
+          Portfolio Website
         </CardText>
         <CardActions border>
           <Button colored>Github</Button>
-          <Button colored>CodePen</Button>
-          <Button colored>Live Demo</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name="share" />
         </CardMenu>
       </Card>
-
+       {/* Project 2 */}
+       <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <CardTitle style={{color: '#black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png) center / cover'}} >React Project #2</CardTitle>
+        <CardText>
+          Password Generator
+        </CardText>
+        <CardActions border>
+          <Button colored>GitHub</Button>
+        </CardActions>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
+       {/* Project 3 */}
+       <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <CardTitle style={{color: '#black', height: '176px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png) center / cover'}} >React Project #3</CardTitle>
+        <CardText>
+        Rock, Paper, Scissors
+        </CardText>
+        <CardActions border>
+          <Button colored>Github</Button>
+        </CardActions>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
       </div>
-
     )
   } else if(this.state.activeTab ===1) {
     return (
@@ -46,8 +67,6 @@ toggleCategories() {
 
 
 }
-
-
   render() {
     return(
       <div className="category-tabs">

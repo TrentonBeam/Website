@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="demo-big-content">
+      <div className="demo-big-content page-grid">
         <Layout>
             <Header className="header-color" title={<Link style={{textDecoration: 'none', color: '#360033'}} to="/">Trenton Beam</Link>} scroll>
                 <Navigation>
@@ -26,7 +26,7 @@ class App extends Component {
                 </Navigation>
             </Drawer>
             <Content>
-                <div className="page-content" />
+                {/* <div className="page-content" /> */}
                 <Main/>
             </Content>
         </Layout>

@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return(
       <div className="contact-body">
-        <Grid className="contact-body">
+        <Grid className="contact-body page-grid">
           <Cell col={6}>
             <h2>Trenton Beam</h2>
             <img

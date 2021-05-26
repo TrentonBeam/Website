@@ -23,31 +23,30 @@ class Contact extends Component {
           <div className="contact-list">
           <List>
           <ListItem>
-           <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+           <ListItemContent style={{fontSize: '40px', fontFamily: 'Anton'}}>
             <a href={'https://trentonbeam.appointlet.com'} style={{ color: 'black', textDecoration: 'none' }} rel="noopener noreferrer" target="_blank">
             <i className="fa fa-calendar" aria-hidden="true"/>
             <span style={{ paddingTop: 5}}>Click to Schedule Appointment</span>
             </a>
 
-
             </ListItemContent>
                    </ListItem>
                    <ListItem>
-                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                     <ListItemContent style={{fontSize: '40px', fontFamily: 'Anton'}}>
                        <i style={{ position: 'relative', left: 0 }} className="fa fa-phone-square" aria-hidden="true"/>
                        <span>(336) 269-3914</span>
                      </ListItemContent>
                    </ListItem>
 
                    <ListItem>
-                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                     <ListItemContent style={{fontSize: '40px', fontFamily: 'Anton'}}>
                        <i className="fa fa-envelope" aria-hidden="true"/>
-                       <span>trentonbeam123@gmail.com</span>
+                       <span>beamtrenton@gmail.com</span>
                      </ListItemContent>
                    </ListItem>
 
                    <ListItem>
-                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                     <ListItemContent style={{fontSize: '40px', fontFamily: 'Anton'}}>
                        <i className="fa fa-skype" aria-hidden="true"/>
                        <span>TrentonBeam123</span>
                      </ListItemContent>

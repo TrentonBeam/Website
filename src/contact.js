@@ -51,14 +51,7 @@ class Contact extends Component {
                        <span>TrentonBeam123</span>
                      </ListItemContent>
                    </ListItem>
-                 {/* <ListItem>
-                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                     <a href={'https://calendar.google.com/calendar/embed?src=brently.bazor@gmail.com&mode=WEEK'} style={{ color: 'black', textDecoration: 'none' }} target="_blank">
-                       <i className="fa fa-calendar" aria-hidden="true"/>
-                       <span style={{ paddingTop: 5}}>Click to View Calendar</span>
-                     </a>
-                   </ListItemContent>
-                 </ListItem> */}
+
                </List>
                </div>
              </Cell>

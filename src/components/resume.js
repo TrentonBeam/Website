@@ -26,11 +26,13 @@ class Resume extends Component {
               />
             </div>
             <h2 style={{ paddingTop: "2em" }}>Trenton Beam</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
+            <h4 style={{ color: "black" }}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <h4 style={{ color: "grey" }}>Grocery Clerk</h4>
+            <h4 style={{ color: "black" }}>Grocery Clerk</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <h4 style={{ color: "grey" }}>Gamer</h4>
+            <h4 style={{ color: "black" }}>Gamer</h4>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+             <h4 style={{ color: "black" }}>Seafood Clerk</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8} tablet={12}>
@@ -57,6 +59,12 @@ class Resume extends Component {
               endYear={2021}
               jobName="Just Save"
               jobDescription="Grocery, Dairy, Frozen"
+            />
+            <Experience
+              startYear={2021}
+              endYear={current}
+              jobName="Publix"
+              jobDescription="Meat Department, Seafood Clerk"
             />
             <hr style={{ borderTop: "3px solid #360033" }} />
             <h2>Skills</h2>

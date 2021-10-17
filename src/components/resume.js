@@ -62,7 +62,6 @@ class Resume extends Component {
             />
             <Experience
               startYear={2021}
-              endYear={current}
               jobName="Publix"
               jobDescription="Meat Department, Seafood Clerk"
             />

@@ -12,7 +12,7 @@ function About() {
           <img
             src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/79032571_1331462823692853_8378302994772393984_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TamHgXaMCQIAX_ep-XO&tn=iU8JgMcLUUUAogAe&_nc_ht=scontent-atl3-1.xx&oh=5d83eca6218dde639dd6a4039cc6b665&oe=619101FE"
             alt="avatar"
-            style={{height: '250px'}}
+            style={{height: '300px'}}
             />
             {/* <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>This is just dummy text givin by myself trenton beam</p> */}
 
@@ -20,8 +20,6 @@ function About() {
           <Cell col={6}>
             <h2>About Me</h2>
             <hr/>
-
-
 
               <div className="contact-list">
                 <List>
@@ -41,8 +39,8 @@ function About() {
                     <span style={{ paddingTop: 5, paddingBottom: 10 }}> Facts About Me...</span>
                     <p>I Really Love Italian Food.</p>
                     <p>I Relate To Music Than Anything Else.</p>
-                    <p>I love Gaming</p>
-                    <p> I Like To Travel</p>
+                    <p>I love Gaming.</p>
+                    <p> I Like To Hang Out With Friends.</p>
                   </ListItemContent>
                 </ListItem>
 
